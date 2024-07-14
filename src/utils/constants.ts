@@ -31,5 +31,3 @@ export const START_TILE_STYLE = TILE_STYLE + " bg-green-400";
 export const END_TILE_STYLE = TILE_STYLE + " bg-red-400";
 export const WALL_TILE_STYLE = TILE_STYLE + " bg-gray-400";
 export const PATH_TILE_STYLE = TILE_STYLE + " bg-yellow-500";
-
-console.log(START_TILE_STYLE);
