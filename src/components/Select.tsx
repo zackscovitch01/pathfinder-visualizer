@@ -20,7 +20,7 @@ function Select({
       </label>
       <select
         disabled={isDisabled}
-        className="bg-gray-200 cursor-pointer hover:bg-gray-400 transition ease-in active:ring-0 active:border-0 p-2 min-w-[200px] sm:min-w-full"
+        className="bg-gray-200 rounded-md cursor-pointer hover:bg-gray-400 transition ease-in active:ring-0 active:border-0 p-2 min-w-[200px] sm:min-w-full"
         id={label}
         value={value}
         onChange={onChange}
