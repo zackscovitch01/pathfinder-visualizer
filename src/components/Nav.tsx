@@ -70,7 +70,10 @@ function Nav({
       startTile,
       endTile,
     });
-    animatePath(traversedTiles, path, startTile, endTile, speed);
+    const filteredTraversedTiles = traversedTiles.filter(
+      (tile) => tile !== undefined
+    );
+    animatePath(filteredTraversedTiles, path, startTile, endTile, speed);
     setIsDisabled(true);
     isVisualizationRunningRef.current = true;
     setTimeout(() => {
